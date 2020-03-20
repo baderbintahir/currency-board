@@ -1,0 +1,15 @@
+div{
+	display: flex;
+}
+
+.sell-lab{
+	width: decrease;
+}
+
+.common-currencies {
+	width: 165px;
+}
+
+read: 1
+write: 2
+append 8

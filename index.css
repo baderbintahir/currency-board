@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background: #171c18;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid black;
+    background: #090a09;
+    margin: 3px;
+    padding: 5px;
+    font-size: large;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0.4%;
+}
+
+button {
+    margin: 15px;
+    margin-right: 25px;
+    border-radius: 7px;
+    color: white;
+    background: #090a09;
+    height: 40px;
+    width: 80px;
+    font-size: medium;
+    border: none;
+}
+
+button:hover {
+    background: #31665a;
+}
+
+.imp-currencies {
+    text-align: center;
+    margin-left: 0.4%;
+}
+
+.imp-currencies table {
+    float: left;
+}
+
+.imp-currencies table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 30px;
+    margin: 5px;
+    background: #efefef;
+}
+
+.imp-currencies input[type=number] {
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    background: #efefef;
+}
+
+.common-currencies table{
+    margin: 0.8%;
+    background: #efefef;
+}
+
+.common-currencies table th {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.common-currencies .cur-lab {
+    padding-left: 1em;
+    display: inline-block;
+    width: 34%;
+}
+
+.common-currencies .buy-lab, .sell-lab{
+    width: 29.6%;
+    display: inline-block;
+    text-align: end;
+    padding-right: 2%;
+}
+
+.common-currencies td label {
+    display: inline-block;
+    width: 250px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.common-currencies table td{
+    padding: 5px;
+    background: #efefef;
+    width: 762px;
+    font-size: 1em;
+}
+
+.common-currencies input[type=number] {
+    text-align: right;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    background: #efefef;
+    width: 240px;
+}
+
+.info {
+    margin: 0px 15px;
+    display: grid;
+}
+
+.info th{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    padding: 8px;
+}
+
+.info td{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    padding: 7px;
+    padding-left: 20px;
+    border: 1px black solid;
+}
